@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item
+        android:id="@+id/night"
+        android:enabled="true"
+        android:icon="@drawable/ic_flare_white_24dp"
+        android:title="nightMode"
+        android:visible="true"
+        app:showAsAction="always" />-->
+    <item
+        android:id="@+id/changelog"
+        android:enabled="true"
+        android:icon="@drawable/ic_assignment_white_24dp"
+        android:title="Changelog"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_info"
+        android:enabled="true"
+        android:icon="@drawable/ic_info_outline_white_24dp"
+        android:title="info"
+        android:visible="true"
+        app:showAsAction="always" />
+
+
+</menu>

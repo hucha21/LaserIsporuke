@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.emina.laserisporuke.MainActivity">
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:textIsSelectable="true"
+        android:layout_margin="5dp"
+        android:id="@+id/version"/> -->
+    <TextView
+        android:id="@+id/korisnik"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textSize="18sp"
+        android:layout_alignTop="@+id/switchUser"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="15dp"
+        android:layout_centerVertical="true" />
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:drawableStart="@drawable/ic_supervisor_account_white_24dp"
+        android:id="@+id/switchUser"/>
+    <Button
+        android:id="@+id/utovari"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/korisnik"
+        android:drawableStart="@drawable/ic_airport_shuttle_white_36dp"
+        android:text="UTOVARI"
+         />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_arrow_forward_black_36dp"
+        android:layout_alignTop="@+id/isporuci"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:contentDescription="" />
+
+    <Button
+        android:id="@+id/isporuci"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/utovari"
+        android:layout_below="@+id/utovari"
+        android:drawableEnd="@drawable/ic_assignment_turned_in_white_36dp"
+        android:text="ISTOVARI" />
+
+    <Button
+        android:id="@+id/prikazi_utovarene"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_below="@+id/isporuci"
+        android:text="PRIKAŽI UTOVARENE"
+        android:drawableStart="@drawable/ic_done_white_24dp"/>
+    <fragment
+        android:layout_below="@+id/prikazi_utovarene"
+        android:id="@+id/map"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.MapFragment"/>
+    <android.support.design.widget.FloatingActionButton
+        android:src="@drawable/ic_my_location_white_24dp"
+        app:fabSize="normal"
+        android:id="@+id/fab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="34dp"
+        android:layout_alignBottom="@+id/map"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

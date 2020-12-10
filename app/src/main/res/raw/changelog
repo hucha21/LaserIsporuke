@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog bulletedList="true">
+
+    <changelogversion versionName="0.7.5" changeDate="Aug 22,2017">
+        <changelogtext>[b]Novo![/b]Back button na vrhu</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="0.7.4" changeDate="Aug 17,2017">
+        <changelogtext>[b]Novo![/b]Login za skladiste</changelogtext>
+        <changelogtext>[b]Novo![/b]Login sistem da s  ne mora svaki put pojavljivati</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="0.7.3" changeDate="Aug 17,2017">
+        <changelogtext>[b]Novo![/b]Fakturisanje pusteno</changelogtext>
+        <changelogtext>[b]Novo![/b]Dodan log u kolanje pri fakturisanju</changelogtext>
+    </changelogversion>
+    <changelogversion versionName="0.7.2" changeDate="Aug 15,2017">
+        <changelogtext>[b]Novo![/b] Prepoznaje palete i kolete</changelogtext>
+        <changelogtext>Fakturisanje(jos malo) </changelogtext>
+        <changelogtext>Odvojeno skladiste od utovara/istovara</changelogtext>
+        <changelogtext>Smanjen prijenos podataka sa servisa</changelogtext>
+        <changelogtext>[b]Novo![/b]Dodan ChangeLog</changelogtext>
+        <changelogtext>[i]Fix![/i] Rijesen problem sa permissionom na 7.0</changelogtext>
+        <changelogtext>Rad na servisu</changelogtext>
+        <changelogtext>[b]Novo![/b]Rijeseno fakturisanje(osim Save Changes())</changelogtext>
+        <changelogtext>[b]Novo![/b]Skladiste+Utovar/Istovar zajedno</changelogtext>
+    </changelogversion>
+
+</changelog>

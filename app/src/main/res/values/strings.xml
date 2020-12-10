@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Laser Isporuke</string>
+    <string name="title_activity_scan">ScanActivity</string>
+    <string name="title_activity_utovari">Utovari</string>
+
+    <!-- Strings related to login -->
+</resources>
